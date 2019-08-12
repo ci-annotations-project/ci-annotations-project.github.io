@@ -1,0 +1,7 @@
+<!ELEMENT Sender (#PCDATA)>
+<!ELEMENT Attribute (#PCDATA)>
+<!ELEMENT Recipient (#PCDATA)>
+<!ELEMENT Subject (#PCDATA)>
+<!ELEMENT TP (#PCDATA)>
+<!ELEMENT Flow (#PCDATA)>
+<!ELEMENT Ignore (#PCDATA)>

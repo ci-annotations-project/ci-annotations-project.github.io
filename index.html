@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PravCI Annotation project </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+  </head>
+    <body>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+<br/>
+<br/>
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container-fluid">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#">CI Annotations Project</a>
+            <div class="nav-collapse collapse">
+              <p class="navbar-text pull-right">
+                <!-- Logged in as <a href="#" class="navbar-link">Username</a>-->
+              </p>
+              <ul class="nav">
+                <!-- <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+               <li><a href="#contact">Contact</a></li>-->
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </div>
+      </div>
+<br/>
+<br/>
+      <div class="container-fluid">
+        <div class="row-fluid">
+          <div class="span3">
+            <div class="well sidebar-nav">
+              <ul class="nav nav-list">
+                <li class="nav-header">Annotated Privacy Policies</li>
+                <li><a href="annotations/Facebook/Facebook-annotations-experts.html" target="self">Facebook</a></li>
+                <li><a href="annotations/gmail.com/privacy_policy.html"  target="self">Gmail</a></li>
+                <li><a href="annotations/linkedin.com/privacy_policy.html" target="self">LinkedIn</a></li>
+                <a href="annotations/twitter.com/privacy_policy.html" target="self">Twitter</a>
+              </li>
+            <!--    <li><a href="#">Link</a></li>
+                <li class="nav-header">Sidebar</li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li class="nav-header">Sidebar</li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>-->
+              </ul>
+            </div><!--/.well -->
+          </div><!--/span-->
+          <div id="target" class="span8">
+            <div class="hero-unit">
+              <h1>Contextual Integrity Annotation Project</h1>
+              <p>The Contextual Integrity Project aims to use the CI framework to annotate privacy policies and regulation.</p>
+              <p><a href="#" class="btn btn-primary btn-large">Learn more</a></p>
+            </div>
+                <h3>Setup</h3>
+            For annotations we're using a <a href="https://addons.mozilla.org/en-US/firefox/addon/webannotator/" target="self">Mozilla WebAnnotator plugin</a>. You need to install the plugin to be able to annotate and view/edit previousely made annotations.
+
+            After you've installed the plugin, you will need to import a
+            document type definition (DTD) schema to load the CI parameters types: <i> sender, recipient, subject, attribute, transmission principle</i>
+
+            <h3>How to annotate?</h3>
+
+            Once you selected a document for annotation. You need to activate the WebAnotation plugin. <i>Note, you cannot annotate two documents in parallel. Each document requires a separate activation.</i>
+
+            <h4>Activation</h4>
+
+            <img src="img/activation.png" width="30%" /> <p/>
+
+            To activate the plugin choose activate <schema.dtd> from the WebAnnotator menu.
+
+            <h4> Annotation <h4>
+
+
+            <img src="img/anotation.gif" width="60%" /> <p/>
+
+            <h3>Submitting your annotation</h3>
+
+            Once you completed annoated the document, save it using the WebAnnoation Save As option and perform a pull request to our repository or emailed to us.
+
+          </div><!--/span-->
+
+
+        </div><!--/row-->
+
+        <hr>
+
+        <footer>
+          <p>PRIVACI 2019</p>
+        </footer>
+
+      </div><!--/.fluid-container-->
+
+      <!-- Le javascript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+
+      <script type="text/javascript">
+      function check(file){
+          //$('#target').load(file);
+          $('#target').load(file);
+
+      }
+      </script>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+  </body>
+  </html>
